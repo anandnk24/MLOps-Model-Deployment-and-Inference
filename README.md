@@ -1,12 +1,11 @@
 ## Introduction
 
-We will focus on model deployment for the news classification model that we trained in week 1, and evaluated in week 2.
+We will focus on model deployment for the news classification model that we trained and evaluated before.
 
 1. We will build a simple web application backend using FastAPI and Uvicorn that wraps our trained model, and exposes an endpoint to make predictions on live traffic that is sent to the endpoint.
 2. We will learn how to wrap our application in a Linux container using Docker. This is a standard practice when we want to deploy our application in a cloud environment such as AWS or Google Cloud. 
 3. We will test our web application and Docker container by sending it live traffic (on our local machine) and logging the model predictions.
 4. We will write some integration tests to test our Docker container is running fine before deployment
-5. [advanced & optional] we will prepare to deploy as a serverless function using AWS Lambda, getting it working locally
 
 ## [Step 1] Download & Install Prerequisites:
 
