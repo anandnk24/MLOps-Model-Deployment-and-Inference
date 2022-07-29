@@ -15,7 +15,6 @@ It would be nice to write some tests to ensure we don't regress!
   2. How do we test FastAPI applications with Pytest? 
     (i) Introduction to testing FastAPI: https://fastapi.tiangolo.com/tutorial/testing/
     (ii) Testing FastAPI with startup and shutdown events: https://fastapi.tiangolo.com/advanced/testing-events/
-
 """
 
 def test_root():
@@ -73,7 +72,6 @@ def test_predict_es_lang():
 
 def test_predict_non_ascii():
     """
-    [TO BE IMPLEMENTED]
     Test the "/predict" endpoint, with an input text that has non-ASCII characters. 
     Does the tokenizer and classifier handle this case correctly? Does it return an error? (... Seems like it handles it correctly!)
     """

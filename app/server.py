@@ -3,7 +3,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from loguru import logger
 import joblib
-import os
 import datetime
 import json
 
